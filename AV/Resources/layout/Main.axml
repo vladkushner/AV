@@ -1,14 +1,54 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:padding="@dimen/mainPadding"
+    android:background="@color/bgMain"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-<Button  
-    android:id="@+id/myButton"
-    android:layout_width="match_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/RadioGroupClientType">
+            <RadioButton
+                android:text="Покупатель"
+                android:checked="true"
+                android:layout_gravity="right"
+                android:textColor="@color/txtButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiobtnClient" />
+            <RadioButton
+                android:text="Продавец"
+                android:textColor="@color/txtButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiobtnSeller" />
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:id="@+id/myButton"
+        android:layout_margin="@dimen/mainPadding"
+        android:background="@color/bgBatton"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/txtButton"
+        android:text="@string/item_add" />
+    <Button
+        android:id="@+id/myButton"
+        android:layout_margin="@dimen/mainPadding"
+        android:background="@color/bgBatton"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/txtButton"
+        android:text="@string/my_items_list" />
 </LinearLayout>
-

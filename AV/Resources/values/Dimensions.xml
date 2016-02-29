@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <dimen name="mainPadding">40dp</dimen>
+    <dimen name="biggerPadding">30dp</dimen>
+</resources>

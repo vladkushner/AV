@@ -2,4 +2,7 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">AV</string>
+	<string name="item_add">Добавить запчасть</string>
+	<string name="my_items_list">Мои запчасти</string>
+	<string name="Item_edit">Редактировать запись</string>
 </resources>
